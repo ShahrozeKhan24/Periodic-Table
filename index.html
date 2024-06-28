@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h4{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+        }
+        td {
+            border: 2px solid #fff;
+            text-align: center;
+            width: 60px;
+            height: 60px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .element {
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .alkali { background-color: #ffcc99; }
+        .alkaline-earth { background-color: #ffff99; }
+        .transition { background-color: #ccccff; }
+        .other-metals { background-color: #ffccff; }
+        .metalloids { background-color: #ccffcc; }
+        .nonmetals { background-color: #ffb3b3; }
+        .halogens { background-color: #38ce72; }
+        .noble-gases { background-color: #ffebcc; }
+        .rare-earth, .lanthanides{ background-color: #d1df81;}
+        .actinides { background-color: #178cda56; }
+        .legend {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .label {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+        .label span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Periodic Table of the Elements</u></h1>
+    <h4>Shahroze Ayyaz Khan (102440)</h4>
+    <table>
+        <tr>
+            <td class="element nonmetals">1<br>H</td>
+            <td colspan="16"></td>
+            <td class="element noble-gases">2<br>He</td>
+        </tr>
+        <tr>
+            <td class="element alkali">3<br>Li</td>
+            <td class="element alkaline-earth">4<br>Be</td>
+            <td colspan="10"></td>
+            <td class="element nonmetals">5<br>B</td>
+            <td class="element nonmetals">6<br>C</td>
+            <td class="element nonmetals">7<br>N</td>
+            <td class="element nonmetals">8<br>O</td>
+            <td class="element halogens">9<br>F</td>
+            <td class="element noble-gases">10<br>Ne</td>
+        </tr>
+        <tr>
+            <td class="element alkali">11<br>Na</td>
+            <td class="element alkaline-earth">12<br>Mg</td>
+            <td colspan="10"></td>
+            <td class="element other-metals">13<br>Al</td>
+            <td class="element nonmetals">14<br>Si</td>
+            <td class="element nonmetals">15<br>P</td>
+            <td class="element nonmetals">16<br>S</td>
+            <td class="element halogens">17<br>Cl</td>
+            <td class="element noble-gases">18<br>Ar</td>
+        </tr>
+        <tr>
+            <td class="element alkali">19<br>K</td>
+            <td class="element alkaline-earth">20<br>Ca</td>
+            <td class="element rare-earth">21<br>Sc</td>
+            <td class="element transition">22<br>Ti</td>
+            <td class="element transition">23<br>V</td>
+            <td class="element transition">24<br>Cr</td>
+            <td class="element transition">25<br>Mn</td>
+            <td class="element transition">26<br>Fe</td>
+            <td class="element transition">27<br>Co</td>
+            <td class="element transition">28<br>Ni</td>
+            <td class="element transition">29<br>Cu</td>
+            <td class="element transition">30<br>Zn</td>
+            <td class="element other-metals">31<br>Ga</td>
+            <td class="element other-metals">32<br>Ge</td>
+            <td class="element nonmetals">33<br>As</td>
+            <td class="element nonmetals">34<br>Se</td>
+            <td class="element halogens">35<br>Br</td>
+            <td class="element noble-gases">36<br>Kr</td>
+        </tr>
+        <tr>
+            <td class="element alkali">37<br>Rb</td>
+            <td class="element alkaline-earth">38<br>Sr</td>
+            <td class="element rare-earth">39<br>Y</td>
+            <td class="element transition">40<br>Zr</td>
+            <td class="element transition">41<br>Nb</td>
+            <td class="element transition">42<br>Mo</td>
+            <td class="element transition">43<br>Tc</td>
+            <td class="element transition">44<br>Ru</td>
+            <td class="element transition">45<br>Rh</td>
+            <td class="element transition">46<br>Pd</td>
+            <td class="element transition">47<br>Ag</td>
+            <td class="element transition">48<br>Cd</td>
+            <td class="element other-metals">49<br>In</td>
+            <td class="element other-metals">50<br>Sn</td>
+            <td class="element other-metals">51<br>Sb</td>
+            <td class="element nonmetals">52<br>Te</td>
+            <td class="element halogens">53<br>I</td>
+            <td class="element noble-gases">54<br>Xe</td>
+        </tr>
+        <tr>
+            <td class="element alkali">55<br>Cs</td>
+            <td class="element alkaline-earth">56<br>Ba</td>
+            <td class="element rare-earth">57<br>La</td>
+            <td class="element transition">72<br>Hf</td>
+            <td class="element transition">73<br>Ta</td>
+            <td class="element transition">74<br>W</td>
+            <td class="element transition">75<br>Re</td>
+            <td class="element transition">76<br>Os</td>
+            <td class="element transition">77<br>Ir</td>
+            <td class="element transition">78<br>Pt</td>
+            <td class="element transition">79<br>Au</td>
+            <td class="element transition">80<br>Hg</td>
+            <td class="element other-metals">81<br>Tl</td>
+            <td class="element other-metals">82<br>Pb</td>
+            <td class="element other-metals">83<br>Bi</td>
+            <td class="element other-metals">84<br>Po</td>
+            <td class="element halogens">85<br>At</td>
+            <td class="element noble-gases">86<br>Rn</td>
+        </tr>
+        <tr>
+            <td class="element alkali">87<br>Fr</td>
+            <td class="element alkaline-earth">88<br>Ra</td>
+            <td class="element actinides">89<br>Ac</td>
+            <td class="element transition">104<br>Rf</td>
+            <td class="element transition">105<br>Db</td>
+            <td class="element transition">106<br>Sg</td>
+            <td class="element transition">107<br>Bh</td>
+            <td class="element transition">108<br>Hs</td>
+            <td class="element transition">109<br>Mt</td>
+            <td class="element transition">110<br>Ds</td>
+            <td class="element transition">111<br>Rg</td>
+            <td class="element transition">112<br>Cn</td>
+            <td class="element other-metals">113<br>Nh</td>
+            <td class="element other-metals">114<br>Fl</td>
+            <td class="element other-metals">115<br>Mc</td>
+            <td class="element other-metals">116<br>Lv</td>
+            <td class="element halogens">117<br>Ts</td>
+            <td class="element noble-gases">118<br>Og</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <td colspan="1"></td>
+            <td class="element lanthanides">58<br>Ce</td>
+            <td class="element lanthanides">59<br>Pr</td>
+            <td class="element lanthanides">60<br>Nd</td>
+            <td class="element lanthanides">61<br>Pm</td>
+            <td class="element lanthanides">62<br>Sm</td>
+            <td class="element lanthanides">63<br>Eu</td>
+            <td class="element lanthanides">64<br>Gd</td>
+            <td class="element lanthanides">65<br>Tb</td>
+            <td class="element lanthanides">66<br>Dy</td>
+            <td class="element lanthanides">67<br>Ho</td>
+            <td class="element lanthanides">68<br>Er</td>
+            <td class="element lanthanides">69<br>Tm</td>
+            <td class="element lanthanides">70<br>Yb</td>
+            <td class="element lanthanides">71<br>Lu</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td colspan="1"></td>
+            <td class="element actinides">90<br>Th</td>
+            <td class="element actinides">91<br>Pa</td>
+            <td class="element actinides">92<br>U</td>
+            <td class="element actinides">93<br>Np</td>
+            <td class="element actinides">94<br>Pu</td>
+            <td class="element actinides">95<br>Am</td>
+            <td class="element actinides">96<br>Cm</td>
+            <td class="element actinides">97<br>Bk</td>
+            <td class="element actinides">98<br>Cf</td>
+            <td class="element actinides">99<br>Es</td>
+            <td class="element actinides">100<br>Fm</td>
+            <td class="element actinides">101<br>Md</td>
+            <td class="element actinides">102<br>No</td>
+            <td class="element actinides">103<br>Lr</td>
+        </tr>
+    </table>
+
+    <div class="legend">
+        <div class="label"><span class="alkali"></span>Alkali metals</div>
+        <div class="label"><span class="alkaline-earth"></span>Alkaline-earth metals</div>
+        <div class="label"><span class="transition"></span>Transition metals</div>
+        <div class="label"><span class="other-metals"></span>Other metals</div>
+        <div class="label"><span class="metalloids"></span>Metalloids</div>
+        <div class="label"><span class="nonmetals"></span>Nonmetals</div>
+        <div class="label"><span class="halogens"></span>Halogens</div>
+        <div class="label"><span class="noble-gases"></span>Noble gases</div>
+        <div class="label"><span class="rare-earth"></span>Rare-earth Elements</div>
+        <div class="label"><span class="lanthanides"></span>Lanthanides</div>
+        <div class="label"><span class="actinides"></span>Actinides</div>
+    </div>
+</body>
+</html>
